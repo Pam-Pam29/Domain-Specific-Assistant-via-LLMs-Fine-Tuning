@@ -1,0 +1,27 @@
+{
+  "experiment": 2,
+  "config": {
+    "name": "Higher LoRA Rank",
+    "learning_rate": 0.00015,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "epochs": 3,
+    "lora_rank": 128,
+    "lora_alpha": 256,
+    "lora_dropout": 0.05,
+    "warmup_steps": 100,
+    "weight_decay": 0.01,
+    "lr_scheduler": "cosine"
+  },
+  "training_time_minutes": 21.825371778011323,
+  "final_loss": 0.5301763753561405,
+  "metrics": {
+    "bleu": 0.07347557488538722,
+    "rouge1": 0.1275896886563463,
+    "rouge2": 0.06701907584436231,
+    "rougeL": 0.10180998072125341,
+    "perplexity": 4.53145694732666,
+    "avg_response_length": 84.32
+  },
+  "timestamp": "2026-02-15T03:45:59.660205"
+}
